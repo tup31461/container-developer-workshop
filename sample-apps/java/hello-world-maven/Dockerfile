@@ -1,4 +1,4 @@
-OM openjdk:11.0-jdk
+FROM openjdk:11.0-jdk
 WORKDIR /app
 COPY . /app
 RUN ./mvnw compile assembly:single
